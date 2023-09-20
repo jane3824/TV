@@ -19,9 +19,9 @@
 		{"key": "荐片","name": "荐片 | T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_JP","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout":30},
 		{"key":"小纸条_cli","name":"小纸条 | T4[cli]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt", "timeout":30},	
 		// Js------------------------
-		{"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
-                {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/腾云驾雾.js"},
-                {"key":"drpy_js_百忙无果","name":"百忙无果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
+		{"key":"drpy_js_优酷","name":"优酷[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
+                {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/腾云驾雾.js"},
+                {"key":"drpy_js_百忙无果","name":"百忙无果[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
 		// Cat Js--------------------
 		{"key":"mybili","name":"哔哩丨合集","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/mybili_open.js"},
 		{"key":"wogg","name":"玩偶丨影视","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/wogg.js","ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
