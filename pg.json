@@ -11,6 +11,17 @@
       "ext":"http://127.0.0.1:9978/file/TVBox/txt/token.txt"
     },
     {
+      "key":"荐片",
+      "name":"📀荐片影视",
+      "type":3,
+      "style": {"type": "rect","ratio":1.77},
+      "api":"./lib/drpy2.min.js",
+      "playerType":1,
+      "searchable":1,
+      "quickSearch":1,
+      "ext":"https://qu.ax/GWWS.js"
+    },
+    {
       "key": "drpy_js_4KHDR",
       "name": "4KHDR[js] | 磁",
       "type": 3,
