@@ -1,0 +1,8 @@
+{"token":"自己的阿里token",
+"open_token":"自己的阿里open_token",
+"thread_limit":32,
+"vod_flags":"4k|4kz|auto",
+"aliproxy":"",
+"proxy":"",
+"open_api_url":"https://api.xhofe.top/alist/ali_open/",
+"quark_cookie":"自己的夸克cookie"}
