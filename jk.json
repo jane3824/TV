@@ -49,6 +49,9 @@
                 //{"key": "timizy","name": "甜蜜资源丨影视 ","type": 1,"style":{"type":"rect","ratio":1.77},"api": "https://timizy10.cc/api.php/provide/vod/?ac=list","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1},
 		{"key": "SNzy","name": "索尼资源 ","type": 1,"style":{"type":"rect","ratio":1.77},"api": "https://suoniapi.com/api.php/provide/vod/?ac=list","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1},
                 {"key":"快帆","name":"📬快帆","type":1,"style":{"type":"rect","ratio":1.77},"api":"https://api.kuaifan.tv/api.php/provide/vod","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","香港剧","台湾剧","韩国剧","日本剧","欧美剧","动作片","动画片","短片","喜剧片","爱情片","科幻片","古装片","历史片","大陆综艺","港台综艺","日韩综艺","国产动漫","欧美动漫","日本动漫"]},
+		// 外挂jar----------------------
+		{"key": "探探","name": "🏵影探┃App","type": 3,"style":{"type":"rect","ratio":1.77},"playerType": "1","api": "csp_YTVIP","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "vip.lyyytv.cn","jar":"./jar/xm.jar;md5;4a0dc0ae860c90d0001f1fc0fae230f7"},
+                {"key": "maolv_open","name": "影视|毛驴","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Maolv","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"https://ghproxy.com/raw.githubusercontent.com/zalman2022/MySpider/main/jar/OpenSpider.jar"},
 		// XYQ-------------------------------
 		{"key":"csp_JianPian","name":"🔨荐片 | 爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 		{"key":"csp_Ikanbot","name": "👾Ikanbot | 爬[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
