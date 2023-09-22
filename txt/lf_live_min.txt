@@ -21,7 +21,7 @@
 1
 
 #电视直播
-https://ghproxy.com/https://raw.githubusercontent.com/jane3824/TV/main/live/tvzb.m3u
+/live/tvzb.m3u
 
 #音乐
-https://ghproxy.com/https://raw.githubusercontent.com/jane3824/TV/main/live/yinyue.txt
+/live/yinyue.txt
