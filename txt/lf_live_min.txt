@@ -21,7 +21,7 @@
 1
 
 #电视直播
-/live/tvzb.m3u
+./live/tvzb.m3u
 
 #音乐
-/live/yinyue.txt
+./live/yinyue.txt
