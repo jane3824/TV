@@ -8,7 +8,7 @@
       "type":3,
       "style": {"type": "rect","ratio":1.77},
       "api":"csp_Wogg",
-      "ext":"http://127.0.0.1:9978/file/TVBox/txt/token.txt"
+      "ext":"http://127.0.0.1:9978/file/TVBox/token.txt"
     },
     {
       "key":"荐片",
