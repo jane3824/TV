@@ -21,6 +21,7 @@
       "quickSearch":1,
       "ext":"https://qu.ax/GWWS.js"
     },
+    {"key":"Hdhive","name":"阿里|影巢","type":3,"style": {"type": "rect","ratio":1.77},"api":"csp_Hdhive","ext":""},
     {
       "key": "drpy_js_4KHDR",
       "name": "4KHDR[js] | 磁",
