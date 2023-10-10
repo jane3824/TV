@@ -1,9 +1,7 @@
 {
   "spider": "./jar/custom_spider.jar;md5;badfd75846df45e8cf06b53654312ccf",
   "wallpaper": "https://gao.chuqiuyu.tk",
-  "lives": [
-		{"name":"Audlt","type":0,"url":"./live/Audlt.m3u","playerType":1}
-	],
+  "lives": [{"name":"Audlt","type":0,"url":"./live/Audlt.m3u"}],
   "sites": [
     {"key": "AList","name": "AList","type": 3,"api": "csp_AList","searchable": 1,"changeable": 0,
       "ext": {
