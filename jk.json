@@ -86,7 +86,7 @@
 		{"key":"csp_Ddys","name":"低端影视 | 爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
 		{"key":"csp_Kunyu77","name":"77影视 | 爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 		{"key": "csp_XYQHikerAL_玩偶哥哥","name":"玩偶 | 盘[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/玩偶哥哥.json"},
-		{"key": "csp_XYQHiker_JOJO","name":"📀JOJO | 爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/JOJO.json"},
+		{"key": "csp_XYQHiker_JOJO","name":"📀JOJO | 爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/JOJO.json"},
 		// Bili-------------------------------
 		{"key":"csp_Bili","name":"哔哩综合 | 爬[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Bili","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./biliext/bili.json"},
 		{"key":"csp_Bili幼儿","name":"哔哩幼儿 | 爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./biliext/幼儿乐园.json"},
