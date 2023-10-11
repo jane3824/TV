@@ -113,7 +113,7 @@
 		{"key": "csp_XYQHikerAL_阿里云盘网","name":"阿里云盘(搜) | 盘[XYQ]","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/阿里云盘网.json"},
 		{"key": "csp_XYQHikerAL_豆豆飞","name":"豆豆飞(搜) | 盘[XYQ]","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/豆豆飞.json"},
 		{"key": "csp_XYQHiker_土拨鼠搜索","name":"土拨鼠(搜) | 盘[XYQ]","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/土拨鼠搜索.json"},
-		//{"key": "csp_XYQHiker_DOVX搜索","name":"DOVX(搜) | 盘[XYQ]","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/DOVX搜索.json"},
+		{"key": "csp_XYQHiker_DOVX搜索","name":"DOVX(搜) | 盘[XYQ]","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/DOVX搜索.json"},
 		{"key": "csp_XYQHiker_盘搜索","name":"盘搜索(搜) | 盘[XYQ]","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/盘搜索.json"},
 		{"key": "Gitcafe","name":"小纸条(搜) | 盘[XYQ]","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
 		{"key": "csp_Zhaozy","name":"找资源(搜) | 盘[XYQ]","type":3,"api":"csp_Zhaozy","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
