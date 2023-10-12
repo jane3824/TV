@@ -3,7 +3,7 @@
   "wallpaper": "https://gao.chuqiuyu.tk",
   "lives": [
     {"name":"Audlt","type":0,"url":"./live/Audlt.m3u"},
-    {"name":"AV4K","type":0,"url":"./live/{AV4K.txt"},
+    {"name":"AV4K","type":0,"url":"./live/AV4K.txt"},
     {"name":"CR","type":0,"url":"./live/CR.m3u"},
     {"name":"FL","type":0,"url":"./live/FL.txt"},
     {"name":"LB","type":0,"url":"./live/LB.m3u"}
