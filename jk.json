@@ -7,14 +7,14 @@
 	"lives": [
 		{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
 	],
-	// 站点-------------------------------  
+	// 站点-------------------------------
 	"sites": [
-		// Lufei Js------------------
+		// Lufei Js-------------------------------
 		{"key": "lf_js_search","name": "lf_search丨搜索","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./lib/lf_search3_min.js"},
 		//BAD{"key": "lf_js_ikanbot","name": "lf_ikanbot丨点播","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_ikanbot5_2_min.js"},
 		{"key": "lf_js_live","name": "lf_live2vod丨直播","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_live10_min.js","ext": "./txt/lf_live_min.txt"},
 		{"key": "lf_js_p2p","name": "lf_p2p丨磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":30},
-		// JunT4---------------------
+		// JunT4-------------------------------
 		{"key": "csp_wogg_cli","name": "玩偶丨T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","timeout":30},
 		{"key": "荐片","name": "荐片丨T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_JP","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout":30},
 		{"key":"小纸条_cli","name":"小纸条丨T4[cli]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt", "timeout":30},	
@@ -96,8 +96,8 @@
 		{"key":"csp_Bili初中","name":"哔哩初中丨爬[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./biliext/初中课堂.json"},
 		{"key":"csp_Bili高中","name":"哔哩高中丨爬[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./biliext/高中课堂.json"},
 		// 磁力-------------------------------
-		{"key": "csp_Mp4Mov","name": "Mp4电影丨磁[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
-                //{"key": "csp_New6v","name": "新6V丨磁[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://www.xb6v.com"},
+		{"key": "csp_Mp4Mov","name":"Mp4电影丨磁[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
+                //{"key": "csp_New6v","name":"新6V丨磁[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://www.xb6v.com"},
 		{"key": "csp_SeedHub","name":"SeedHub丨磁[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 		{"key": "csp_KubaCL","name":"酷吧电影丨磁[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 		{"key": "csp_MeijuTT","name":"美剧天堂丨磁[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_MeijuTT","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
@@ -107,7 +107,7 @@
 		{"key": "csp_XYQHikerAL_4KHDR","name":"4KHDR丨磁&盘[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/4KHDR.json"},
 		{"key": "csp_XYQHiker_电影港","name":"电影港丨磁[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/电影港磁力.json"},
 		{"key": "csp_XYQHiker_极影网","name":"极影网丨磁[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/极影网.json"},
-		{"key": "csp_XYQHiker_BT天堂","name":"BT天堂丨磁&✈[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/BT天堂.json"},		
+		{"key": "csp_XYQHiker_BT天堂","name":"BT天堂丨磁&✈[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/BT天堂.json"},
 		// 搜索-------------------------------
 		{"key": "csp_XYQHikerAL_云盘资源","name":"云盘资源(搜)丨盘[XYQ]","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/云盘资源分享.json"},
 		{"key": "csp_XYQHikerAL_我的小站","name":"我的小站(搜)丨盘[XYQ]","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQ/json/我的小站.json"},
