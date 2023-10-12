@@ -97,7 +97,7 @@
 		{"key":"csp_Bili高中","name":"哔哩高中丨爬[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./biliext/高中课堂.json"},
 		// 磁力-------------------------------
 		{"key": "csp_Mp4Mov","name":"Mp4电影丨磁[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
-                //{"key": "csp_New6v","name":"新6V丨磁[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://www.xb6v.com"},
+		//{"key": "csp_New6v","name":"新6V丨磁[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://www.xb6v.com"},
 		{"key": "csp_SeedHub","name":"SeedHub丨磁[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 		{"key": "csp_KubaCL","name":"酷吧电影丨磁[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 		{"key": "csp_MeijuTT","name":"美剧天堂丨磁[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_MeijuTT","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
