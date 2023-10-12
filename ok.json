@@ -1,6 +1,6 @@
 {
 	// 配置-------------------------------
-	"spider": "./jar/101102.jar",
+	"spider": "./jar/1012.jar",
 	// 壁纸-------------------------------
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 	// 直播-------------------------------
@@ -19,8 +19,8 @@
 		{"key": "荐片","name": "荐片 | T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_JP","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout":30},
 		{"key":"小纸条_cli","name":"小纸条 | T4[cli]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt", "timeout":30},
 		// 弹幕（主jar）	---------------------
-		{"key":"jojo","name":"JOJO[jar]","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":  {"danmu": true}}
-		{"key":"jojo","name":"JOJO弹幕版[jar]","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":  {"danmu": true}}
+                {"key":"jojo","name":"JOJO弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":  {"danmu": true}},
+		{"key":"jojo","name":"JOJO无弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":  {"danmu": false}},
 		// drpy Js------------------------
 		{"key":"drpy_js_优酷","name":"优酷[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
 		{"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
