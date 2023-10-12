@@ -9,8 +9,8 @@
 	],
 	// 站点-------------------------------  
 	"sites": [
-                {"key":"jojo","name":"JOJO弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},
-		{"key":"jojo","name":"JOJO无弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":false}}
+                {"key":"jojo弹幕","name":"JOJO弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},
+		{"key":"jojo无","name":"JOJO无弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":false}}
 	],
 	// 解析-------------------------------
         "parses": [
