@@ -18,7 +18,7 @@
 		{"key": "csp_wogg_cli","name": "玩偶 | T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","timeout":30},
 		{"key": "荐片","name": "荐片 | T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_JP","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout":30},
 		{"key":"小纸条_cli","name":"小纸条 | T4[cli]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt", "timeout":30},
-		// 弹幕（主jar）	---------------------
+		// 弹幕 ---------------------
                 {"key":"jojo","name":"JOJO弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":  {"danmu": true}},
 		{"key":"jojo","name":"JOJO无弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":  {"danmu": false}},
 		// drpy Js------------------------
