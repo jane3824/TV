@@ -11,7 +11,7 @@
 	"sites": [
 		//LufeiJs规则区
 		{"key": "lf_js_search","name": "lf_search丨搜索[LF]","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./lib/lf_search3_min.js"},
-		//BAD{"key": "lf_js_ikanbot","name": "lf_ikanbot丨点播[LF]","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_ikanbot5_2_min.js"},
+		//bad{"key": "lf_js_ikanbot","name": "lf_ikanbot丨点播[LF]","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_ikanbot5_2_min.js"},
 		{"key": "lf_js_live","name": "lf_live2vod丨直播[LF]","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_live10_min.js","ext": "./txt/lf_live_min.txt"},
 		{"key": "lf_js_p2p","name": "lf_p2p丨磁力[LF]","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":30},
 		//JunT4规则区
@@ -43,7 +43,7 @@
 		{"key":"sharenice","name":"短视频丨聚合[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/sharenice_open.js"},
 		{"key":"cntv","name":"视聚场丨电视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/cntv_open.js"},
 		{"key":"kuqimv","name":"酷奇丨MV[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/kuqimv_open.js"},
-		//BAD{"key":"18av","name":"18av丨CR[Catjs]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "./cat/js/18av_open.js"},
+		//bad{"key":"18av","name":"18av丨CR[Catjs]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "./cat/js/18av_open.js"},
 		//直连规则区
 		{"key":"迪迪","name":"迪迪丨App","api":"csp_AppYsV2","type":3,"style":{"type":"rect","ratio":1.77},"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://22222.yiyingys.asia/api.php/app/"},
                 {"key":"Czsapp","name":"厂长丨直连","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d65c6f3f30d78e020e48588d511f2bfe"},
