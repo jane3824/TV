@@ -14,7 +14,7 @@
 		//bad{"key": "lf_js_ikanbot","name": "lf_ikanbot丨点播[LF]","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_ikanbot5_2_min.js"},
 		{"key": "lf_js_live","name": "lf_live2vod丨直播[LF]","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_live10_min.js","ext": "./txt/lf_live_min.txt"},
 		{"key": "lf_js_p2p","name": "lf_p2p丨磁力[LF]","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":30},
-		{"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/drpy.js"},
+		{"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":".lib/drpy2.min.js","ext":"./js/drpy.js"},
 		//JunT4规则区
 		{"key": "csp_wogg_cli","name": "玩偶丨[JunT4]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","timeout":30},
 		{"key": "荐片","name": "荐片丨[JunT4]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_JP","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout":30},
