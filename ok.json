@@ -9,6 +9,7 @@
 	],
 	// 站点-------------------------------  
 	"sites": [
+		{"key":"玩偶弹幕版","name":"玩偶哥哥弹幕版|4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {"token": "影视天下第一","filter": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/wogg.json","danmu" : true,"site":"玩偶地址"}},
                 {"key":"jojo弹幕","name":"JOJO弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},
 		{"key":"jojo无","name":"JOJO无弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":false}}
 	],
