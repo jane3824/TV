@@ -9,19 +9,8 @@
 	],
 	// 站点-------------------------------  
 	"sites": [
-		
-		{"key": "lf_js_search","name": "lf_search | 搜索","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./lib/lf_search3_min.js"},
-		//BAD{"key": "lf_js_ikanbot","name": "lf_ikanbot | 点播","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_ikanbot5_2_min.js"},
-		{"key": "lf_js_live","name": "lf_live2vod | 直播","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_live10_min.js","ext": "./txt/lf_live_min.txt"},
-		{"key": "lf_js_p2p","name": "lf_p2p | 磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":30},
-		
-		{"key": "csp_wogg_cli","name": "玩偶 | T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","timeout":30},
-		{"key": "荐片","name": "荐片 | T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_JP","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout":30},
-		{"key":"小纸条_cli","name":"小纸条 | T4[cli]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt", "timeout":30},
                 {"key":"jojo","name":"JOJO弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext": {"danmu": true}},
-		{"key":"jojo","name":"JOJO无弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext": {"danmu": false}},
-		// 推送-------------------------------
-		{"key": "push_agent","name": "🦉夸克推送.PG","type": 3,"api": "csp_Push","searchable": 0,"quickSearch": 0,"filterable": 0,"changeable": 0,"ext": "http://127.0.0.1:9978/file/TVBox/PG/tv/open_token.json","jar": "./jar/fm.jar;md5;cc8bd6ea561142306352cc40b39b942f"}
+		{"key":"jojo","name":"JOJO无弹幕版","type":3,"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext": {"danmu": false}}
 	],
 	// 解析-------------------------------
         "parses": [
