@@ -9,8 +9,8 @@
 	],
 	// 站点-------------------------------  
 	"sites": [
-		{"key":"玩偶弹幕版","name":"玩偶弹幕版|4K","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext":{"token":"http://127.0.0.1:9978/file/tvbox/token.txt","filter":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/wogg.json","danmu":true}},
-		{"key":"玩偶无弹幕","name":"玩偶|4K","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1, "ext":{"token":"http://127.0.0.1:9978/file/tvbox/token.txt","filter":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/wogg.json","danmu":false}}, 
+		{"key":"玩偶弹幕版","name":"玩偶弹幕版|4K","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext":{"token":"http://127.0.0.1:9978/file/tvbox/token.txt","filter":"./fongmi/json/wogg.json","danmu":true}},
+		{"key":"玩偶无弹幕","name":"玩偶|4K","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1, "ext":{"token":"http://127.0.0.1:9978/file/tvbox/token.txt","filter":"./fongmi/json/wogg.jsonn","danmu":false}}, 
 		{"key":"360影视弹幕","name":"360影视弹幕版","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
 		{"key":"360影视无弹幕","name":"360影视","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false}},
 		{"key":"jojo弹幕","name":"JOJO弹幕版","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},
