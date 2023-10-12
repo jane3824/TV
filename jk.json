@@ -37,6 +37,7 @@
 		{"key":"mybili","name":"哔哩丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/mybili_open.js"},
 		{"key":"wogg","name":"玩偶丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/wogg.js","ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
 		{"key":"ikanbot","name":"爱看丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/ikanbot_open.js"},
+		{"key":"JOJO","name":"JOJO丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/jiohub.js"},
 		{"key":"czzy","name":"厂长丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/czzy_open.js"},
 		{"key":"zxzj","name":"在线之家丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/zxzj_open.js"},
 		{"key":"libvio","name":"libvio丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/libvio_open.js"},
