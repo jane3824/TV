@@ -1,13 +1,13 @@
 {
-	// 配置-------------------------------
+	//配置
 	"spider": "./jar/1013.jar",
-	// 壁纸-------------------------------
+	//壁纸
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-	// 直播-------------------------------
+	//直播
 	"lives": [
 		{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
 	],
-	// 站点-------------------------------  
+	//站点
 	"sites": [
 		//Alist规则区
 		{"key": "AList","name": "AList","type": 3,"api": "csp_AList","searchable": 1,"changeable": 0,
