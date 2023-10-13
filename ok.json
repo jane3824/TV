@@ -56,6 +56,7 @@
 		{"key":"subaibai","name":"素白白丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/subaibai_open.js"},
 		{"key":"duboku","name":"🛩独播库丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/duboku_open.js"},
 		{"key":"nivod","name":"🛩泥巴丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./cat/js/nivod_op.js","ext":"888解忧愁"},
+		{"key":"yqktv","name":"一起看丨短剧[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/yqktv_open.js"},
 		{"key":"boosj","name":"童趣丨少儿[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/boosj_open.js"},
 		{"key":"tuxiaobei","name":"兔小贝丨少儿[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/tuxiaobei_open.js"},
 		{"key":"ubestkid","name":"贝乐虎丨少儿[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/ubestkid_open.js"},
