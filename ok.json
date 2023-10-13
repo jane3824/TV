@@ -46,6 +46,8 @@
 		//CatJs规则区
 		{"key":"mybili","name":"哔哩丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/mybili_open.js",
 			"ext": {"categories": "沙雕动画#沙雕穿越#沙雕","cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}},
+		{"key": "bili_open","name": "哔哩貓","type": 3,"style":{"type":"rect","ratio":1.77},"api": "https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js","searchable": 1,"changeable": 0,
+			"ext": {"categories": "沙雕动画#沙雕穿越#沙雕","cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}},
 		{"key":"wogg","name":"玩偶丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/wogg.js","ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
 		{"key":"ikanbot","name":"爱看丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/ikanbot_open.js"},
 		{"key":"JOJO","name":"JOJO丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/jiohub.js"},
