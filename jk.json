@@ -23,7 +23,7 @@
 		{"key":"360影视弹幕","name":"360影视弹幕[OK]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true},"jar":"./jar/1013.jar"},
 		//{"key":"360影视无弹幕","name":"360影视[OK]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": false},"jar":"./jar/1013.jar"},
 		{"key":"jojo弹幕","name":"JOJO弹幕[OK]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jiohub","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true},"jar":"./jar/1013.jar"},
-		//{"key":"jojo无弹幕","name":"JOJO弹幕[OK]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jiohub","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":false},"jar":"./jar/1013.jar"},
+		//{"key":"jojo无弹幕","name":"JOJO[OK]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jiohub","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":false},"jar":"./jar/1013.jar"},
 		{"key":"jianpian弹幕","name":"荐片弹幕[OK]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true},"jar":"./jar/1013.jar"},
 		//{"key":"jianpian无弹幕","name":"荐片[OK]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": false},"jar":"./jar/1013.jar"},
 		//drpyJs规则区
