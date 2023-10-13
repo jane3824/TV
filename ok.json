@@ -63,14 +63,15 @@
 		{"key":"cntv","name":"视聚场丨电视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/cntv_open.js"},
 		{"key":"kuqimv","name":"酷奇丨MV[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/kuqimv_open.js"},
 		//搜索规则区
-		{"key": "七夜","name": "七夜","type": 3,"api": "csp_Dovx","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "易搜","name": "易搜","type": 3,"api": "csp_YiSo","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "雲搜","name": "雲搜","type": 3,"api": "csp_UpYun","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "盤搜","name": "盤搜","type": 3,"api": "csp_PanSou","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "紙條搜","name": "紙條搜","type": 3,"api": "csp_XiaoZhiTiao","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "盤搜索","name": "盤搜索","type": 3,"api": "csp_PanSearch","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "找資源","name": "找資源","type": 3,"api": "csp_Zhaozy","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"}
+		{"key": "七夜","name": "七夜搜丨盘[search]","type": 3,"api": "csp_Dovx","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		{"key": "易搜","name": "易搜丨盘[search]","type": 3,"api": "csp_YiSo","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		{"key": "雲搜","name": "云搜丨盘[search]","type": 3,"api": "csp_UpYun","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		{"key": "盤搜","name": "盘搜丨盘[search]","type": 3,"api": "csp_PanSou","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		{"key": "紙條搜","name": "小纸条丨盘[search]","type": 3,"api": "csp_XiaoZhiTiao","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		{"key": "盤搜索","name": "盘搜索丨盘[search]","type": 3,"api": "csp_PanSearch","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		{"key": "找資源","name": "找资源丨盘[search]","type": 3,"api": "csp_Zhaozy","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		//推送规则区
+		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","searchable": 1,"changeable": 0,}
 ],
 	// 解析-------------------------------
         "parses": [
