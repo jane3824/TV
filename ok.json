@@ -73,7 +73,7 @@
 		//推送规则区
 		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","searchable": 1,"changeable": 0}
 ],
-	// 解析-------------------------------
+	//解析
         "parses": [
                 //{"name":"Json并发","type":2,"url":"Parallel"},
                 //{"name":"Json轮询","type":2,"url":"Sequence"},
@@ -89,7 +89,7 @@
                 {"name":"-爱豆-","type":0,"url":"https://jx.aidouer.net/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer":"https://jiejie.uk/"}}},
 		{"name":"酷云77","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}}	
 	],
-	// 加密-------------------------------
+	//加密
 	"doh": [
 		{"name": "Google","url": "https://dns.google/dns-query","ips": ["8.8.4.4", "8.8.8.8"]},
 		{"name": "Cloudflare","url": "https://cloudflare-dns.com/dns-query","ips": ["1.1.1.1", "1.0.0.1", "2606:4700:4700::1111", "2606:4700:4700::1001"]},
@@ -97,7 +97,7 @@
 		{"name": "DNSWatch","url": "https://resolver2.dns.watch/dns-query","ips": ["84.200.69.80", "84.200.70.40"]},
 		{"name": "Quad9","url": "https://dns.quad9.net/dns-quer","ips": ["9.9.9.9", "149.112.112.112"]}
 	],
-	// 调用-------------------------------
+	//调用
 	"rules":[
 		{"name":"磁力广告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
 		{"name":"暴风广告","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
