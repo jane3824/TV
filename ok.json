@@ -18,6 +18,10 @@
 				]
 			}
 		},
+		{"key": "哔哩","name": "哔哩","type": 3,"api": "csp_Bili","searchable": 1,"changeable": 0,"style": {"type": "rect","ratio": 1.77},
+			"ext": {"json": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
+				"cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}
+		},
 		//LuFei规则区
 		{"key": "lf_js_search","name": "LF_search丨搜索","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./lib/lf_search3_min.js"},
 		{"key": "lf_js_live","name": "LF_live2vod丨直播","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_live10_min.js","ext": "./txt/lf_live_min.txt"},
