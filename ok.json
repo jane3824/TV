@@ -72,8 +72,12 @@
 		{"key": "盤搜索","name": "盘搜索丨盘[search]","type": 3,"api": "csp_PanSearch","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
 		{"key": "找資源","name": "找资源丨盘[search]","type": 3,"api": "csp_Zhaozy","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
 		//推送规则区
-		{"key": "push_agent","name": "🔵lf_push丨推送","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 0,"api": "./lib/lf_pushagent1_5_min.js","ext": "http://127.0.0.1:9978/file/TVBox/token.txt"}
+		{"key": "push_agent","name": "🔵lf_push丨推送","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 0,"api": "./lib/lf_pushagent1_5_min.js","ext": "http://127.0.0.1:9978/file/TVBox/token.txt"},
 		//{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","searchable": 1,"changeable": 0}
+		{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"jar":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;f78dde289126840ebdd4abaf0cb7841d","ext":[
+			{"name":"电视py-v7","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
+			{"name":"Android-4.x","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
+			{"name":"手机py-v7","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"}]}
 ],
 	//解析
         "parses": [
