@@ -85,8 +85,8 @@
                 {"key":"快帆","name":"📬快帆丨影视","type":1,"style":{"type":"rect","ratio":1.77},"api":"https://api.kuaifan.tv/api.php/provide/vod","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","香港剧","台湾剧","韩国剧","日本剧","欧美剧","动作片","动画片","短片","喜剧片","爱情片","科幻片","古装片","历史片","大陆综艺","港台综艺","日韩综艺","国产动漫","欧美动漫","日本动漫"]},
 		{"key": "yp","name": "YP丨影视 ","type": 1,"style":{"type":"rect","ratio":1.77},"playerType": 1,"api": "http://zy.xzam.cn/api.php/provide/vod/","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1},
 		//外挂jar规则区
-		{"key": "探探","name": "🏵影探丨App","type": 3,"style":{"type":"rect","ratio":1.77},"playerType": "1","api": "csp_YTVIP","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "vip.lyyytv.cn","jar":"./jar/xm.jar;md5;4a0dc0ae860c90d0001f1fc0fae230f7"},
-                {"key": "maolv_open","name": "影视丨毛驴","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Maolv","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"https://ghproxy.com/raw.githubusercontent.com/zalman2022/MySpider/main/jar/OpenSpider.jar"},
+		{"key": "探探","name": "🏵影探丨App","type": 3,"style":{"type":"rect","ratio":1.77},"playerType": "1","api": "csp_YTVIP","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "vip.lyyytv.cn","jar":"./jar/xm.jar;md5;4a0dc0ae860c90d0001f1fc0fae230f7"}, 
+		{"key": "maolv_open","name": "影视丨毛驴","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Maolv","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"https://ghproxy.com/raw.githubusercontent.com/zalman2022/MySpider/main/jar/OpenSpider.jar"},
 		//内置爬虫规则区
 		{"key":"csp_JianPian","name":"🔨荐片丨爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 		{"key":"csp_Ikanbot","name": "👾Ikanbot丨爬[XYQ]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
@@ -134,7 +134,15 @@
 		{"key": "csp_Yisou","name":"易搜(搜)丨盘[XYQ]","type":3,"api":"csp_Yisou","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
 		{"key": "csp_Upyunso","name":"UP云搜(搜)丨盘[XYQ]","type":3,"api":"csp_Upyunso","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
 		//推送规则区
-		{"key": "push_agent","name": "🦉夸克推送.PG","type": 3,"api": "csp_Push","searchable": 0,"quickSearch": 0,"filterable": 0,"changeable": 0,"ext": "http://127.0.0.1:9978/file/TVBox/PG/tv/open_token.json","jar": "./jar/fm.jar;md5;cc8bd6ea561142306352cc40b39b942f"}
+		{"key": "push_agent","name": "🦉夸克推送.PG","type": 3,"api": "csp_Push","searchable": 0,"quickSearch": 0,"filterable": 0,"changeable": 0,"ext": "http://127.0.0.1:9978/file/TVBox/PG/tv/open_token.json","jar": "./jar/fm.jar;md5;cc8bd6ea561142306352cc40b39b942f"},
+		//应用商店区
+		{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"jar":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;f78dde289126840ebdd4abaf0cb7841d",
+			"ext":[
+				{"name":"电视py-v7","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
+				{"name":"Android-4.x","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
+				{"name":"手机py-v7","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"}
+			]
+		}
 	],
 	//解析
         "parses": [
