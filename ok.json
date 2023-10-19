@@ -1,6 +1,6 @@
 {
 	//配置
-	"spider": "./jar/1013.jar",
+	"spider": "./jar/101903.jar",
 	//壁纸
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 	//直播
@@ -26,11 +26,16 @@
 		{"key": "lf_js_search","name": "LF_search丨搜索","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./lib/lf_search3_min.js"},
 		{"key": "lf_js_live","name": "LF_live2vod丨直播","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_live10_min.js","ext": "./txt/lf_live_min.txt"},
 		{"key": "lf_js_p2p","name": "LF_p2p丨磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":30},
+		//JunT4规则区
+		{"key": "csp_wogg_cli","name": "玩偶 | T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","timeout":30},
+		{"key": "荐片","name": "荐片 | T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_JP","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout":30},
+		{"key":"小纸条_cli","name":"小纸条 | T4[cli]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt", "timeout":30},
 		//弹幕主JAR规则区
 		{"key":"玩偶弹幕版","name":"玩偶弹幕版[Okjar]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext":{"token":"http://127.0.0.1:9978/file/tvbox/token.txt","filter":"./fongmi/json/wogg.json","danmu":true}},
 		{"key":"360影视弹幕","name":"360影视弹幕版[Okjar]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
 		{"key":"360影视无弹幕","name":"360影视[Okjar]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false}},
-		{"key":"jojo弹幕","name":"JOJO弹幕[Okjar]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jiohub","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},
+		{"key":"jojo","name":"JOJO弹幕版|嗅探[Okjar]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jojo","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},
+		{"key":"jojo弹幕","name":"JOJO弹幕[Okjar]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jiohub","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},		
 		{"key":"jojo无弹幕","name":"JOJO[Okjar]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jiohub","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":false}},
 		{"key":"jianpian影视弹幕","name":"荐片弹幕[Okjar]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
 		{"key":"jianpian影视无弹幕","name":"荐片[Okjar]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false}},
@@ -64,16 +69,23 @@
 		{"key":"cntv","name":"视聚场丨电视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/cntv_open.js"},
 		{"key":"kuqimv","name":"酷奇丨MV[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/kuqimv_open.js"},
 		//搜索规则区
-		{"key": "七夜","name": "七夜搜丨盘[search]","type": 3,"api": "csp_Dovx","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "易搜","name": "易搜丨盘[search]","type": 3,"api": "csp_YiSo","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "雲搜","name": "云搜丨盘[search]","type": 3,"api": "csp_UpYun","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "盤搜","name": "盘搜丨盘[search]","type": 3,"api": "csp_PanSou","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "紙條搜","name": "小纸条丨盘[search]","type": 3,"api": "csp_XiaoZhiTiao","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "盤搜索","name": "盘搜索丨盘[search]","type": 3,"api": "csp_PanSearch","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "找資源","name": "找资源丨盘[search]","type": 3,"api": "csp_Zhaozy","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		{"key":"纸条弹幕版","name":"纸条弹幕版┃搜索","type":3,"api":"csp_XiaoZhiTiao","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","danmu":true}},
+		{"key":"盘Se弹幕版","name":"盘Se弹幕版┃搜索","type":3,"api":"csp_PanSearch","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","danmu":true}},
+		{"key":"找資源弹幕版","name":"找資源弹幕版┃搜索","type":3,"api":"csp_Zhaozy","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","username": "zhaoziyuannb","password":"zhaoziyuannb","danmu":true}},
+		{"key":"七夜弹幕版","name":"七夜弹幕版┃搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","danmu":true}},
+		{"key":"盘搜弹幕版","name":"盘搜弹幕版┃搜索","type":3,"api":"csp_PanSou","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","danmu":true}},
+		{"key":"易搜弹幕版","name":"易搜弹幕版┃搜索","type":3,"api":"csp_YiSo","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","danmu":true}},
+		//{"key": "七夜","name": "七夜搜丨盘[search]","type": 3,"api": "csp_Dovx","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		//{"key": "易搜","name": "易搜丨盘[search]","type": 3,"api": "csp_YiSo","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		//{"key": "雲搜","name": "云搜丨盘[search]","type": 3,"api": "csp_UpYun","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		//{"key": "盤搜","name": "盘搜丨盘[search]","type": 3,"api": "csp_PanSou","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		//{"key": "紙條搜","name": "小纸条丨盘[search]","type": 3,"api": "csp_XiaoZhiTiao","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		//{"key": "盤搜索","name": "盘搜索丨盘[search]","type": 3,"api": "csp_PanSearch","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		//{"key": "找資源","name": "找资源丨盘[search]","type": 3,"api": "csp_Zhaozy","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
 		//推送规则区
 		{"key": "push_agent","name": "🔵lf_push丨推送","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 0,"api": "./lib/lf_pushagent1_5_min.js","ext": "http://127.0.0.1:9978/file/TVBox/token.txt"},
 		//{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","searchable": 1,"changeable": 0}
+		{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json","style":{"type":"rect","ratio":1}},
 		{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"jar":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;f78dde289126840ebdd4abaf0cb7841d","ext":[
 			{"name":"电视py-v7","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
 			{"name":"Android-4.x","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
