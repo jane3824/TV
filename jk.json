@@ -27,12 +27,12 @@
 		{"key":"jianpian弹幕","name":"荐片弹幕[OK]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true},"jar":"./jar/1013.jar"},
 		//{"key":"jianpian无弹幕","name":"荐片[OK]","type": 3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": false},"jar":"./jar/1013.jar"},
 		//drpyJs规则区
-		{"key":"drpy_js_360影视","name":"360影视[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"header":{"User-Agent":"Mozilla/5.0-fongmi"},"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
-		{"key":"drpy_js_优酷","name":"优酷[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
-		{"key":"drpy_js_奇珍异兽","name":"奇珍异兽[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
-                {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/腾云驾雾.js"},
-                {"key":"drpy_js_百忙无果","name":"百忙无果[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
-		{"key":"drpy_js_短剧网","name":"短剧网[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./js/短剧网.js"},
+		{"key":"drpy_js_360影视","name":"360影视[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"header":{"User-Agent":"Mozilla/5.0-fongmi"},"api":"./lib/drpy2.min.js","ext":"./drpy/js/360影视.js"},
+		{"key":"drpy_js_优酷","name":"优酷[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/优酷.js"},
+		{"key":"drpy_js_奇珍异兽","name":"奇珍异兽[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/奇珍异兽.js"},
+                {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/腾云驾雾.js"},
+                {"key":"drpy_js_百忙无果","name":"百忙无果[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/百忙无果.js"},
+		{"key":"drpy_js_短剧网","name":"短剧网[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/短剧网.js"},
 		//CatJs规则区
 		{"key":"mybili","name":"哔哩丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/mybili_open.js"},
 		{"key":"wogg","name":"玩偶丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/wogg.js","ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
