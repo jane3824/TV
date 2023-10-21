@@ -13,8 +13,8 @@
 		{"key": "AList","name": "AList","type": 3,"api": "csp_AList","searchable": 1,"changeable": 0,
 			"ext": {
 				"drives": [
-					{"name": "lao wang","server": "https://alist.jjww.eu.org/"},
-					{"name": "🔞罗汉果","server": "https://lala-ofbip.run.goorm.site/"}
+					//{"name": "lao wang","server": "https://alist.jjww.eu.org/"},
+					//{"name": "🔞罗汉果","server": "https://lala-ofbip.run.goorm.site/"}
 				]
 			}
 		},
