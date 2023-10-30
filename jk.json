@@ -33,6 +33,8 @@
 		{"key":"drpy_js_腾云驾雾","name":"腾云驾雾[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/腾云驾雾.js"},
 		{"key":"drpy_js_百忙无果","name":"百忙无果[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/百忙无果.js"},
 		{"key":"drpy_js_短剧网","name":"短剧网[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/短剧网.js"},
+		{"key":"drpy_js_野格","name":"野格[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/野格.js"},
+		{"key":"drpy_js_8号影院","name":"8号影院[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/8号影院.js"},
 		//CatJs规则区
 		{"key":"mybili","name":"哔哩丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./cat/js/mybili_open.js"},
 		{"key":"wogg","name":"玩偶丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./cat/js/wogg.js","ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
