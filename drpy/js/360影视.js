@@ -1,4 +1,3 @@
-
 var rule = {
     title:'360影视',
     host:'https://www.360kan.com',
@@ -346,14 +345,7 @@ var rule = {
     multi:1,
     searchable:2,
     play_parse:true,
-    lazy:`js:
-    input=input.split("?")[0];
-    input = {
-        jx: 1,
-        parse: 1,
-        url: input
-    }
-    `,
+    lazy:'js:input=input.split("?")[0];log(input);',
     // 疑似t4专用的
     // lazy:'js:input={parse: 1, playUrl: "", jx: 1, url: input.split("?")[0]}',
     // 手动调用解析请求json的url,此lazy不方便
@@ -361,6 +353,6 @@ var rule = {
     推荐:'json:data;title;cover;comment;cat+ent_id;description',
     一级:'json:data.movies;title;cover;pubdate;id;description',
     二级:'',
-    二级:`js:let html=JSON.parse(fetch(input,fetch_params));let data=html.data;let tilte=data.title;let img=data.cdncover;let vod_type=data.moviecategory.join(",");let area=data.area.join(",");let director=data.director.join(",");let actor=data.actor.join(",");let content=data.description;let base_vod={vod_id:input,vod_name:tilte,type_name:vod_type,vod_actor:actor,vod_director:director,vod_content:content,vod_remarks:area,vod_pic:urljoin2(input,img)};let delta=200;let vod_play={};let sites=data.playlink_sites;sites.forEach(function(i){let t="";let r=[];if(data.allupinfo){let o=parseInt(data.allupinfo[i]);for(let l=1;l<o;l+=delta){let t=Math.min(o,l+delta-1);let e=buildUrl(input,{start:l,end:t,site:i});let a=JSON.parse(fetch(e),fetch_params).data;if(a.allepidetail){a=a.allepidetail[i];a.forEach(function(t,e){r.push((t.playlink_num||"")+"$"+urlDeal(t.url||""))})}else{a=a.defaultepisode;a.forEach(function(t,e){r.push((t.period||"")+(t.name||"")+"$"+urlDeal(t.url)||"")})}}}else{let t=data.playlinksdetail[i];r.push((t.sort||"")+"$"+urlDeal(t.default_url||""))}if(r.length>0){t=r.join("#")}if(t.length<1){return}vod_play[i]=t});let tabs=Object.keys(vod_play);let playUrls=[];for(let t in tabs){print("id:"+t);playUrls.push(vod_play[tabs[t]])}if(tabs.length>0){let t=tabs.join("$$$");let e=playUrls.join("$$$");base_vod.vod_play_from=t;base_vod.vod_play_url=e}VOD=base_vod;function sorted(t){let a=new RegExp("cntv|douyin");let l=t.vod_play_url.split("$$$");let e=t.vod_play_from.split("$$$").map((t,e)=>{return[t,l[e]]});let o=e.sort(function(t,e){if(t[0].match(a)){return 1}else if(e[0].match(a)){return-1}else{return 0}});t.vod_play_from=o.map(t=>t[0]).join("$$$");t.vod_play_url=o.map(t=>t[1]).join("$$$")}sorted(VOD); `,
+    二级:'js:let html=JSON.parse(fetch(input,fetch_params));let data=html.data;let tilte=data.title;let img=data.cdncover;let vod_type=data.moviecategory.join(",");let area=data.area.join(",");let director=data.director.join(",");let actor=data.actor.join(",");let content=data.description;let base_vod={vod_id:input,vod_name:tilte,type_name:vod_type,vod_actor:actor,vod_director:director,vod_content:content,vod_remarks:area,vod_pic:urljoin2(input,img)};let delta=200;let vod_play={};let sites=data.playlink_sites;sites.forEach(function(site){let playList="";let vodItems=[];if(data.allupinfo){let total=parseInt(data.allupinfo[site]);for(let j=1;j<total;j+=delta){let end=Math.min(total,j+delta-1);let url2=buildUrl(input,{start:j,end:end,site:site});let vod_data=JSON.parse(fetch(url2),fetch_params).data;if(vod_data.allepidetail){vod_data=vod_data.allepidetail[site];vod_data.forEach(function(item,index){vodItems.push((item.playlink_num||"")+"$"+urlDeal(item.url||""))})}else{vod_data=vod_data.defaultepisode;vod_data.forEach(function(item,index){vodItems.push((item.period||"")+(item.name||"")+"$"+urlDeal(item.url)||"")})}}}else{let item=data.playlinksdetail[site];vodItems.push((item.sort||"")+"$"+urlDeal(item.default_url||""))}if(vodItems.length>0){playList=vodItems.join("#")}if(playList.length<1){return}vod_play[site]=playList});let tabs=Object.keys(vod_play);let playUrls=[];for(let id in tabs){print("id:"+id);playUrls.push(vod_play[tabs[id]])}if(tabs.length>0){let vod_play_from=tabs.join("$$$");let vod_play_url=playUrls.join("$$$");base_vod.vod_play_from=vod_play_from;base_vod.vod_play_url=vod_play_url}VOD=base_vod;',
     搜索:'json:data.longData.rows;titleTxt||titlealias;cover;cat_name;cat_id+en_id;description',
 }
