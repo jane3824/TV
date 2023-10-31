@@ -28,7 +28,6 @@
 		{"key": "新6V","name": "新6V丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Xb6v","searchable": 1,"changeable": 0},
 		{"key": "暴風","name": "暴風丨影视[fm]","type": 1,"style":{"type":"rect","ratio":1.77},"api": "https://bfzyapi.com/api.php/provide/vod","searchable": 1,"changeable": 1},
 		{"key": "索尼","name": "索尼丨影视[fm] ","type": 1,"style":{"type":"rect","ratio":1.77},"api": "https://suoniapi.com/api.php/provide/vod","searchable": 1,"changeable": 1},
-		//{"key": "快帆","name": "快帆丨影视[fm]","type": 1,"style":{"type":"rect","ratio":1.77},"api": "https://api.kuaifan.tv/api.php/provide/vod","searchable": 1,"changeable": 1},
 		{"key": "量子","name": "量子丨影视[fm]","type": 0,"style":{"type":"rect","ratio":1.77},"api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable": 1,"changeable": 1},
 		{"key": "泥巴","name": "🛩泥巴丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_NiNi","searchable": 1,"changeable": 1},
 		{"key": "星星","name": "🛩星星丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Star","searchable": 1,"changeable": 1},
