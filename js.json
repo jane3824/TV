@@ -23,6 +23,8 @@
 		{"key":"小纸条_cli","name":"小纸条丨T4[cli]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt", "timeout":30},
 		
 		{"key":"drpy_js_我的哔哩","name":"我的哔哩[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/我的哔哩.js"},
+		{"key":"drpy_js_B站影视","name":"B站影视丨影视[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/B站影视.js"},
+		{"key":"drpy_js_哔哩影视","name":"哔哩影视丨影视[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/哔哩影视.js"},
 		{"key":"drpy_js_豆瓣","name":"豆瓣丨搜索[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/drpy.js"},
 		{"key":"drpy_js_Alist","name":"Alist丨网盘[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/alist.min.js","ext":"./drpy/js/alist.json"},
 		
@@ -170,8 +172,6 @@
 		{"key":"drpy_js_追剧啦儿","name":"追剧啦儿丨影视[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/追剧啦.js"},
 		{"key":"drpy_js_子子影视","name":"子子影视丨影视[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/子子影视.js"},
 		{"key":"drpy_js_新视觉影视","name":"新视觉影视丨影视[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/新视觉影视.js"},
-		{"key":"drpy_js_B站影视","name":"B站影视丨影视[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/B站影视.js"},
-		{"key":"drpy_js_哔哩影视","name":"哔哩影视丨影视[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/哔哩影视.js"},
 		
 		{"key":"drpy_js_好趣网","name":"好趣网丨电视[js]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/好趣网.js"},
 		
