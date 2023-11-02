@@ -70,13 +70,6 @@
 		{"key":"sharenice","name":"短视频丨聚合[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/sharenice_open.js"},
 		{"key":"cntv","name":"视聚场丨电视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/cntv_open.js"},
 		{"key":"kuqimv","name":"酷奇丨MV[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./cat/js/kuqimv_open.js"},
-		//Bili规则区
-		{"key":"csp_Bili","name":"哔哩综合丨爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./biliext/bili.json"},
-		{"key":"csp_Bili幼儿","name":"哔哩幼儿丨爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./biliext/幼儿乐园.json"},
-		{"key":"csp_Bili少儿","name":"哔哩少儿丨爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./biliext/少儿教育.json"},
-		{"key":"csp_Bili小学","name":"哔哩小学丨爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./biliext/小学课堂.json"},
-		{"key":"csp_Bili初中","name":"哔哩初中丨爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./biliext/初中课堂.json"},
-		{"key":"csp_Bili高中","name":"哔哩高中丨爬[XYQ]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./biliext/高中课堂.json"},
 		//磁力规则区
                 //Alist,WebDAV,本地规则区
 		{"key": "AList","name": "AList","type": 3,"api": "csp_AList","searchable": 1,"changeable": 0,"ext":"./fongmi/json/alist.json"},
