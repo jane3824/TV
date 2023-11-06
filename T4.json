@@ -77,7 +77,7 @@
       "changeable": 0,
       "ext": {
         "json": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json",
-        "cookie": "dict格式cookies"
+        "cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"
       }
     },
     {
