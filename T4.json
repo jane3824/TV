@@ -5,13 +5,26 @@
       "key": "push_agent",
       "name": "首页",
       "type": 4,
+      "style":{"type": "rect","ratio": 1.77},
       "api": "https://api-lmteam.koyeb.app/PythonT4/ali",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "token": "32位token/链接",
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "apiList": [
+          {
+            "name": "玩偶丨T4",
+            "api": "http://home.jundie.top:9520/spider/csp_Wogg"          
+          },
+          {
+            "name": "荐片丨T4",
+            "api": "http://home.jundie.top:9520/spider/csp_JP"          
+          },
+          {
+            "name": "小纸条丨T4",
+            "api": "http://home.jundie.top:9520/spider/cli_gitCafe"          
+          },
           {
             "name": "非凡",
             "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8"
@@ -121,7 +134,7 @@
       "type": 0,
       "timeout": 60,
       "playerType": 2,
-      "url": "直播地址",
+      "url": "https://xhdwc.tk/tvlive.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
     }
   ],
