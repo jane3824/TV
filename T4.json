@@ -76,7 +76,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "json": "json格式的分类的url",
+        "json": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json",
         "cookie": "dict格式cookies"
       }
     },
