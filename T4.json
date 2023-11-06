@@ -91,7 +91,7 @@
       "changeable": 0,
       "ext": {
         "json": "json格式的分类的url",
-        "cookie": "dict格式cookies"
+        "cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"
       }
     },
     {
