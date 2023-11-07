@@ -40,11 +40,11 @@
           },
           {
             "name": "飞速",
-            "api": "https://www.feisuzyapi.com/api.php/provide/vod/?ac=list"
+            "api": "https://www.feisuzyapi.com/api.php/provide/vod/from/fsyun,fsm3u8"
           },
            {
             "name": "暴风",
-            "api": "https://bfzyapi.com/api.php/provide/vod"
+            "api": "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8"
           },          
           {
             "name": "T4/T0采集",
