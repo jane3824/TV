@@ -15,18 +15,6 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "apiList": [
           {
-            "name": "玩偶丨T4",
-            "api": "http://home.jundie.top:9520/spider/csp_Wogg"          
-          },
-          {
-            "name": "荐片丨T4",
-            "api": "http://home.jundie.top:9520/spider/csp_JP"          
-          },
-          {
-            "name": "小纸条丨T4",
-            "api": "http://home.jundie.top:9520/spider/cli_gitCafe"          
-          },
-          {
             "name": "非凡",
             "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8"
           },
@@ -38,14 +26,6 @@
             "name": "量子",
             "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8"
           },
-          {
-            "name": "飞速",
-            "api": "https://www.feisuzyapi.com/api.php/provide/vod/from/fsyun,fsm3u8"
-          },
-           {
-            "name": "暴风",
-            "api": "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8"
-          },          
           {
             "name": "T4/T0采集",
             "api": "API地址"
