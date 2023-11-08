@@ -31,8 +31,8 @@
 				"apiList": [
 					{"name": "非凡","api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8"},
 					{"name": "索尼","api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8"},
-					{"name": "乐播","api": "https://lbapi9.com/api.php/provide/vod/from/lbm3u8"},
-					{"name": "U酷","api": "https://api.ukuapi.com/api.php/provide/vod/from/ukm3u8"},
+					//{"name": "乐播","api": "https://lbapi9.com/api.php/provide/vod/from/lbm3u8"},
+					//{"name": "U酷","api": "https://api.ukuapi.com/api.php/provide/vod/from/ukm3u8"},
 					{"name": "量子","api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8"},
 					{"name": "T4/T0采集","api": "API地址"}
 				]
