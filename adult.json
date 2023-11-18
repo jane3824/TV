@@ -27,6 +27,7 @@
     {"key": "玩偶","name": "玩偶✈","type": 3,"style": {"type": "rect","ratio": 1.77},"api": "csp_Doll","searchable": 1},
     {"key": "18AV","name": "18AV✈","type": 3,"style": {"type": "rect","ratio": 1.77},"api": "csp_Eighteen","searchable": 1}, 
     {"key": "18A貓","name": "18A貓","type": 3,"style": {"type": "rect","ratio": 1.77},"api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/18a_open.js","searchable": 1},
+    {"key": "csp_JavDb","name": "JavDb✈","type": 3,"api": "csp_JavDb","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0,"jar": "./jar/fm.20231116-1155.jar;577e6f45363dd5e544dc2fb40f375750","timeout": 180},
     {"key": "Jable","name": "Jable✈","type": 3,"style": {"type": "rect","ratio": 1.77},"api": "csp_Jable","searchable": 1},
     {"key": "MissAV","name": "MissAV✈","type": 3,"style": {"type": "rect","ratio": 1.77},"api": "csp_Miss","searchable": 1},
     {"key": "Hanime","name": "Hanime✈","type": 3,"style": {"type": "rect","ratio": 1.77},"api": "csp_Hanime","searchable": 1},
