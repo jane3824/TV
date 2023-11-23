@@ -1,6 +1,6 @@
 {
 	//配置
-	"spider": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;d0ae5fa6fb705a6c020f930a73f44714",
+	"spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;d0ae5fa6fb705a6c020f930a73f44714",
 	//壁纸
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 	//直播
@@ -10,7 +10,7 @@
 	//站点
 	"sites": [
 		{"key": "哔哩","name": "哔哩","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Bili","searchable": 1,"changeable": 0,
-			"ext": {"json": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
+			"ext": {"json": "https://fm.t4tv.hz.cz/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}
 		},
 		//LuFei规则区
@@ -270,7 +270,7 @@
 		//推送规则区
 		{"key": "push_agent","name": "🔵lf_push丨推送","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 0,"api": "./lib/lf_pushagent1_5_min.js","ext": "http://127.0.0.1:9978/file/TVBox/token.txt"},
 		//{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","searchable": 1,"changeable": 0}
-		{"key": "应用商店","name": "应用商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json"}
+		{"key": "应用商店","name": "应用商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json"}
 ],
 	//解析
         "parses": [
