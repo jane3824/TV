@@ -10,7 +10,7 @@
 	//站点
 	"sites": [
 		{"key": "哔哩","name": "哔哩","type": 3,"api": "csp_Bili","searchable": 1,"changeable": 0,"style":{"type": "rect","ratio": 1.77},
-			"ext": {"json": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
+			"ext": {"json": "https://fm.t4tv.hz.cz/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}
 		},
 		//LuFei规则区
