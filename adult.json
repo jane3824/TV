@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;badfd75846df45e8cf06b53654312ccf",
+  "spider": "https://fm.t4tv.hz.cz/jar/custom_spider.jar;md5;17d7e3dcde6c9d3ab25b87dcaf77a3cd",
   "wallpaper": "https://gao.chuqiuyu.tk",
   "lives": [
     {"name":"Audlt","type":0,"url":"./live/Audlt.m3u"},
