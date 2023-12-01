@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fm.20231116-1155.jar;md5;577e6f45363dd5e544dc2fb40f375750",
+  "spider": "./jar/pg.jar;md5;11be97a6cb52c128f32873d817b9feed‎",
   "wallpaper": "http://xhww.fun:63/img.php",
   "sites": [
     {"key":"WoGG","name":"玩偶哥哥","type":3,"style": {"type": "rect","ratio":1.77},"api":"csp_Wogg","ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
