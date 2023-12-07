@@ -1,6 +1,6 @@
 {
 	//配置
-	"spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;9060b67dfec8782aca6e79ba17c0979b",
+	"spider": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;9060b67dfec8782aca6e79ba17c0979b",
 	//壁纸
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 	//直播
@@ -10,7 +10,7 @@
 	//站点
 	"sites": [
 		{"key": "哔哩","name": "哔哩","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Bili","searchable": 1,"changeable": 0,
-			"ext": {"json": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
+			"ext": {"json": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}
 		},
 		//LuFei规则区
