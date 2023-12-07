@@ -14,15 +14,15 @@
 				"cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}
 		},
 		//LuFei规则区
-		{"key": "lf_js_search","name": "LF_search丨搜索","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./lib/lf_search3_min.js"},
-		{"key": "lf_js_live","name": "LF_live2vod丨直播","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_live10_min.js","ext": "./txt/lf_live_min.txt"},
-		{"key": "lf_js_p2p","name": "LF_p2p丨磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":300},
+		//{"key": "lf_js_search","name": "LF_search丨搜索","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./lib/lf_search3_min.js"},
+		//{"key": "lf_js_live","name": "LF_live2vod丨直播","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_live10_min.js","ext": "./txt/lf_live_min.txt"},
+		//{"key": "lf_js_p2p","name": "LF_p2p丨磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":300},
 		//JunT4规则区
 		//{"key": "csp_wogg_cli","name": "玩偶丨T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","timeout":30},
 		//{"key": "荐片","name": "荐片丨T4[cli]","type": 4,"style":{"type":"rect","ratio":1.77},"api": "http://home.jundie.top:9520/spider/csp_JP","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout":30},
 		//{"key": "小纸条_cli","name":"小纸条丨T4[cli]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt", "timeout":30},
 		//PyT4规则区
-		{"key": "push_agent","name": "首页","type": 4,"style":{"type": "rect","ratio": 1.77},
+		//{"key": "push_agent","name": "首页","type": 4,"style":{"type": "rect","ratio": 1.77},
 			"api": "https://api.azure.leuse.top/PythonT4/ali",
 			//"api": "https://api-lmteam.koyeb.app/PythonT4/ali",
 			//"api": "http://lmhome.leuse.top:8251/PythonT4/ali",
@@ -39,17 +39,17 @@
 				]
 			}
 		},
-		{"key": "py_sport","name":"体育","type": 4,"style":{"type":"rect","ratio":1.77},
+		//{"key": "py_sport","name":"体育","type": 4,"style":{"type":"rect","ratio":1.77},
 			"api": "https://api.azure.leuse.top/PythonT4/sport",
 			//"api": "https://api-lmteam.koyeb.app/PythonT4/sport",
 			//"api": "http://lmhome.leuse.top:8251/PythonT4/sport",
 			"searchable": 0,"quickSearch": 0,"filterable": 0,"changeable": 0},
-		{"key": "py_bookreader","name": "有声小说","type": 4,"style":{"type": "rect","ratio": 1.77},
+		//{"key": "py_bookreader","name": "有声小说","type": 4,"style":{"type": "rect","ratio": 1.77},
 			"api": "https://api.azure.leuse.top/PythonT4/bookreader",
 			//"api": "https://api-lmteam.koyeb.app/PythonT4/bookreader",
 			//"api": "http://lmhome.leuse.top:8251/PythonT4/bookreader",
 			"searchable": 1,"quickSearch": 0,"filterable": 1,"changeable": 0},
-		{"key": "py_firstaid","name": "急救指南","type": 4,"style":{"type": "rect","ratio": 1.77},
+		//{"key": "py_firstaid","name": "急救指南","type": 4,"style":{"type": "rect","ratio": 1.77},
 			"api": "https://api.azure.leuse.top/PythonT4/firstaid",
 			//"api": "https://api-lmteam.koyeb.app/PythonT4/firstaid",
 			//"api": "http://lmhome.leuse.top:8251/PythonT4/firstaid",
