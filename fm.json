@@ -9,7 +9,7 @@
 	],
 	//站点
 	"sites": [
-		{"key":"csp_Aid","name":"急救┃指南","type":3,"style": { "type": "rect", "ratio":1.77}"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0},
+		{"key":"csp_Aid","name":"急救┃指南","type":3,"style": {"type": "rect", "ratio":1.77},"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0},
 		{"key": "哔哩","name": "哔哩","type": 3,"api": "csp_Bili","searchable": 1,"changeable": 0,"style":{"type": "rect","ratio": 1.77},
 			"ext": {"json": "https://fm.t4tv.hz.cz/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}
