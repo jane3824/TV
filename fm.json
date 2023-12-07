@@ -23,7 +23,8 @@
 		//{"key": "小纸条_cli","name":"小纸条丨T4[cli]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt", "timeout":30},
 		//PyT4规则区
 		{"key": "push_agent","name": "首页","type": 4,"style":{"type": "rect","ratio": 1.77},
-			"api": "https://api-lmteam.koyeb.app/PythonT4/ali",
+			"api": "https://api.azure.leuse.top/PythonT4/ali",
+			//"api": "https://api-lmteam.koyeb.app/PythonT4/ali",
 			//"api": "http://lmhome.leuse.top:8251/PythonT4/ali",
 			"searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,
 			"ext": {
@@ -39,15 +40,18 @@
 			}
 		},
 		{"key": "py_sport","name":"体育","type": 4,"style":{"type":"rect","ratio":1.77},
-			"api": "https://api-lmteam.koyeb.app/PythonT4/sport",
+			"api": "https://api.azure.leuse.top/PythonT4/sport",
+			//"api": "https://api-lmteam.koyeb.app/PythonT4/sport",
 			//"api": "http://lmhome.leuse.top:8251/PythonT4/sport",
 			"searchable": 0,"quickSearch": 0,"filterable": 0,"changeable": 0},
 		{"key": "py_bookreader","name": "有声小说","type": 4,"style":{"type": "rect","ratio": 1.77},
-			"api": "https://api-lmteam.koyeb.app/PythonT4/bookreader",
+			"api": "https://api.azure.leuse.top/PythonT4/bookreader",
+			//"api": "https://api-lmteam.koyeb.app/PythonT4/bookreader",
 			//"api": "http://lmhome.leuse.top:8251/PythonT4/bookreader",
 			"searchable": 1,"quickSearch": 0,"filterable": 1,"changeable": 0},
 		{"key": "py_firstaid","name": "急救指南","type": 4,"style":{"type": "rect","ratio": 1.77},
-			"api": "https://api-lmteam.koyeb.app/PythonT4/firstaid",
+			"api": "https://api.azure.leuse.top/PythonT4/firstaid",
+			//"api": "https://api-lmteam.koyeb.app/PythonT4/firstaid",
 			//"api": "http://lmhome.leuse.top:8251/PythonT4/firstaid",
 			"searchable": 1,"quickSearch": 0,"filterable": 1,"changeable": 0},
 		//fongmi规则区
