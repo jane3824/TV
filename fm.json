@@ -5,10 +5,26 @@
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 	//直播
 	"lives": [
-		{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
+		{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+		{"name":"番茄•综合","type":0,"url":"http://fanqie.gq/a/1701859592.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+		{"name":"YanG•综合","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/Gather.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+		{"name":"范明明•综合","type":0,"url":"https://fongmi.cachefly.net/fanmingming/live/main/tv/m3u/global.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+		{"name":"YueChan•综合","type":0,"url":"https://fongmi.cachefly.net/YueChan/Live/main/IPTV.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+		{"name":"Yoursmile•综合","type":0,"url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+                {"name":"饭太硬•综合","type":0,"url":"https://agit.ai/fantaiying/0/raw/branch/main/tvlive.txt","playerType":1,"ua": "okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+                {"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+                {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+                {"name":"初秋语•电台","type":0,"url":"./radio.txt","playerType":1},
+                {"name":"范明明•电台","type":0,"url":"https://fongmi.cachefly.net/fanmingming/live/main/radio/m3u/index.m3u","playerType":1},
+                {"name":"肥羊•斗鱼","type":0,"url":"https://fongmi.cachefly.net/Ftindy/IPTV-URL/main/douyuyqk.m3u","playerType":1},
+                {"name":"肥羊•虎牙","type":0,"url":"https://fongmi.cachefly.net/Ftindy/IPTV-URL/main/huyayqk.m3u","playerType":1},
+                {"name":"肥羊•YY","type":0,"url":"https://fongmi.cachefly.net/Ftindy/IPTV-URL/main/yylunbo.m3u","playerType":1},
+                {"name":"初秋语•哔哩","type":0,"url":"./bili.m3u","playerType":1},
+                {"name":"YuanHsing•油管","type":0,"url":"https://fongmi.cachefly.net/YuanHsing/YouTube_to_m3u/main/youtube.m3u"}
 	],
 	//站点
 	"sites": [
+		{"key":"csp_Aid","name":"急救┃指南","type":3,"style": { "type": "rect", "ratio":1.77}"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0},
 		{"key": "哔哩","name": "哔哩","type": 3,"api": "csp_Bili","searchable": 1,"changeable": 0,"style":{"type": "rect","ratio": 1.77},
 			"ext": {"json": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}
