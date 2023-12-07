@@ -9,11 +9,15 @@
 	],
 	//站点
 	"sites": [
-		//fongmi规则区
 		{"key": "哔哩","name": "哔哩","type": 3,"api": "csp_Bili","searchable": 1,"changeable": 0,"style":{"type": "rect","ratio": 1.77},
 			"ext": {"json": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json","type": "帕梅拉#太极拳#广场舞#演唱会",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/cookie.txt"}
 		},
+		//LuFei规则区
+		{"key": "lf_js_search","name": "LF_search丨搜索","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "./lib/lf_search3_min.js"},
+		{"key": "lf_js_live","name": "LF_live2vod丨直播","type": 3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_live10_min.js","ext": "./txt/lf_live_min.txt"},
+		{"key": "lf_js_p2p","name": "LF_p2p丨磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":300},
+		//fongmi规则区
 		{"key": "豆瓣","name": "豆瓣丨搜索[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Douban","searchable": 0,"changeable": 1,"ext": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/douban.json"},
 		{"key": "玩偶","name": "玩偶丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Wogg","searchable": 1,"changeable": 0,"ext": {"token":"http://127.0.0.1:9978/file/tvbox/token.txt","filter":"https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/wogg.json"}},
 		{"key": "賤賤","name": "賤賤丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Jianpian","searchable": 1,"changeable": 1,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"},
