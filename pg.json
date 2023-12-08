@@ -82,11 +82,11 @@
 		{ "key": "Mayiys", "name": "蚂蚁影视", "type": 3, "api": "csp_Mayiys", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 },
 		{ "key": "Maolv", "name": "毛驴", "type": 3, "api": "csp_Maolv", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 },
 		{ "key": "YQKan", "name": "一起看", "type": 3, "api": "csp_YQKan", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 },
-		{"key": "索尼资源","name": "索尼┃资源","type": 1,"api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/","searchable": 1,"quickSearch": 1
+		{"key": "索尼资源","name": "索尼┃资源","type": 1,"api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/","searchable": 1,"quickSearch": 1,
 			"categories": [
 				"动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","纪录片","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫",
 				"欧美动漫","动画片","港台动漫","海外动漫","演唱会","体育赛事","篮球","足球","预告片","斯诺克","影视解说"
-				],
+				]
 				},
 		{"key":"drpy_js_美剧迷","name":"美剧迷[js]|磁","type":3,"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/meijumi.js", "quickSearch":1, "changeable":1, "timeout":60},
 		{"key":"drpy_js_libvio","name":"LIBVIO[js]|夸","type":3,"api":"./drpy/lib/drpy2.min.js","ext":"./drpy/js/libvio.js", "quickSearch":1, "changeable":1, "timeout":30},
@@ -132,8 +132,8 @@
 		{"key": "蘑菇","name": "🍄┃蘑菇┃影视","type": 3,"api": "csp_MmYs","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": ""},
 		{"key": "csp_Czsapp","name": "📔厂长┃直连","type": 3,"api": "csp_Czsapp","playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 0,"filterable": 1},
 		{"key": "快看","name": "快看","type": 3,"api": "csp_Kuaikan","searchable": 1,"quickSearch": 1,"changeable": 0,"filterable": 1},
-		{ "key":"csp_YingShi","name":"影视|海外","type":3,"api":"csp_YingShi","ext":""},
-		{ "key": "泥巴", "name": "泥巴 | 海外", "type": 3, "api": "csp_NiNi", "searchable": 1, "filterable": 1, "changeable": 0, "ext":"0$$$" },
+		{"key": "csp_YingShi","name":"影视|海外","type":3,"api":"csp_YingShi","ext":""},
+		{"key": "泥巴", "name": "泥巴 | 海外", "type": 3, "api": "csp_NiNi", "searchable": 1, "filterable": 1, "changeable": 0, "ext":"0$$$" },
 		{"key": "星星","name": "星星 | 海外","type": 3,"api": "csp_Star","searchable": 1,"changeable": 0,"ext":""},
 		{"key": "獨播","name": "獨播 | 海外","type": 3,"api": "csp_XPathMacFilter","searchable": 1,"changeable": 0,"ext": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/duboku.json$$$"},
 		{"key": "haiwaikan","name": "海外看","type": 1,"api": "https://haiwaikan.com/api.php/provide/vod","searchable": 1,"changeable": 1,
