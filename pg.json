@@ -1,5 +1,5 @@
 {
-	"spider":"./pg.jar",
+	"spider":"./jar/pg.jar",
 	"sites":[
 		{"key": "酷狗","name": "酷狗","type": 3,"api": "csp_Kugou","searchable": 1,"changeable": 0},
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
