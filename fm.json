@@ -4,7 +4,16 @@
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
 	"lives": [
-		{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
+		{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+		{
+			"name":"ysp•嗅探", 
+			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+			"type":0,
+			"url":./live/ysp.m3u",
+			"playerType":0,
+			"epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo":"https://epg.112114.xyz/logo/{name}.png"
+		}
 	],
 	"sites": [
 		{"key": "哔哩","name": "哔哩","type": 3,"api": "csp_Bili","searchable": 1,"changeable": 0,"style":{"type": "rect","ratio": 1.77},
