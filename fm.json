@@ -27,9 +27,10 @@
 
 		{"key": "豆瓣","name": "豆瓣丨搜索[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Douban","searchable": 0,"changeable": 1,"ext": "https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/douban.json"},
 		{"key": "玩偶","name": "玩偶丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Wogg","searchable": 1,"changeable": 0,"ext": {"token":"http://127.0.0.1:9978/file/tvbox/token.txt","filter":"https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/wogg.json"}},
+		{"key": "盤九","name": "盤99丨影视[fm]","type": 3,"api": "csp_Pan99","searchable": 1,"changeable": 0,"ext": "影視天下第一"},
 		{"key": "賤賤","name": "賤賤丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Jianpian","searchable": 1,"changeable": 1,"ext":"https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/jianpian.json"},
 		{"key": "新6V","name": "新6V丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Xb6v","searchable": 1,"changeable": 0},
-		{"key": "996影院","name": "996丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Cs1369","searchable": 1,"changeable": 1},
+		{"key": "九六","name": "九六丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Cs1369","searchable": 1,"changeable": 1},
 		{"key": "短劇","name": "短劇丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Duanju","searchable": 1,"changeable": 0},
 		{"key": "暴風","name": "暴風丨影视[fm]","type": 1,"style":{"type":"rect","ratio":1.77},"api": "https://bfzyapi.com/api.php/provide/vod","searchable": 1,"changeable": 1},
 		{"key": "索尼","name": "索尼丨影视[fm] ","type": 1,"style":{"type":"rect","ratio":1.77},"api": "https://suoniapi.com/api.php/provide/vod","searchable": 1,"changeable": 1},
