@@ -20,7 +20,6 @@
 			}
 		},
 		{"key": "lf_js_p2p","name": "LF_p2p丨磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":30},
-		//{"key":"PikPakShareA","name":"PikPakA🛩","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TVBox/lib/pikpak.json$$$./lib/pikpakclass.a.json$$$./lib/pikpakclass.a.json.txt.gz"},
 		{"key":"PikPakShareA","name":"PikPakA🛩","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, 
 			"ext":"http://127.0.0.1:9978/file/TVBox/lib/pikpak.json$$$http://127.0.0.1:9978/file/TVBox/lib/pikpakclass.a.json$$$http://127.0.0.1:9978/file/TVBox/lib/pikpakclass.a.json.txt.gz"},
 		{"key": "泥巴","name": "泥巴✈","type": 3,"style": {"type": "rect","ratio": 1.77},"api": "csp_NiNi","searchable": 1,"ext": "1"},
