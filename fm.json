@@ -81,10 +81,10 @@
                 {"key": "本地","name": "本地","type": 3,"api": "csp_Local","searchable": 0,"changeable": 0},
 		{"key":"PikPakShare","name":"PikPak🛩","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, 
 			"ext":"http://127.0.0.1:9978/file/TVBox/lib/pikpak.json$$$./pg/json/pikpakclass.json$$$./pg/json/pikpakclass.json.txt.gz",
-			"jar":"./jar/pg.jar;md5;b7acadb831326d7faffcd37409dbab56"},
+			"jar":"./jar/pg.jar;md5;b5027b2f02864d71560a99bd49442aab"},
 		{"key":"PikPakShareA","name":"PikPakA🛩","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, 
 			"ext":"http://127.0.0.1:9978/file/TVBox/lib/pikpak.json$$$./pg/json/pikpakclass.a.json$$$./pg/json/pikpakclass.a.json.txt.gz",
-			"jar":"./jar/pg.jar;md5;b7acadb831326d7faffcd37409dbab56"},
+			"jar":"./jar/pg.jar;md5;b5027b2f02864d71560a99bd49442aab"},
 
 		{"key": "七夜","name": "七夜搜丨盘[search]","type": 3,"api": "csp_Dovx","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
 		{"key": "易搜","name": "易搜丨盘[search]","type": 3,"api": "csp_YiSo","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
