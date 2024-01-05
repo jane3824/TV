@@ -6,6 +6,7 @@
 	"lives": [
 		{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 		{"name":"爱尚源","type":0,"url":"https://gh.jjww.eu.org/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u","playerType":1},
+		{"name":"爱尚源","type":0,"url":"https://gitcode.net/u012349622/iptv/-/raw/master/tv.m3u","playerType":1},
 		{	
 			"name":"ysp•嗅探", 
 			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
