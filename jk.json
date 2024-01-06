@@ -1,6 +1,6 @@
 {
 	//配置
-	"spider":"./jar/XYQ.jar",
+	"spider":"./jar/xyq.jar",
 	//壁纸
 	"wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 	//直播
@@ -15,17 +15,12 @@
 		{"key":"lf_js_live","name":"lf_live2vod丨直播[LF]","type":3,"style":{"type":"rect","ratio":1.77},"searchable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_live10_min.js","ext":"./txt/lf_live_min.txt"},
 		{"key":"lf_js_p2p","name":"lf_p2p丨磁力[LF]","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","ext":"18+","timeout":30},
 		{"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
+		
 		//JunT4规则区
 		//{"key":"csp_wogg_cli","name":"玩偶丨[JunT4]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","timeout":30},
 		//{"key":"荐片","name":"荐片丨[JunT4]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 		//{"key":"小纸条_cli","name":"小纸条丨[JunT4]","type":4,"style":{"type":"rect","ratio":1.77},"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","timeout":30},	
-		//OK弹幕规则区
-		{"key":"360影视弹幕","name":"360影视弹幕[OK]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/1013.jar"},
-		//{"key":"360影视无弹幕","name":"360影视[OK]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false},"jar":"./jar/1013.jar"},
-		{"key":"jojo弹幕","name":"JOJO弹幕[OK]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jiohub","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true},"jar":"./jar/1013.jar"},
-		//{"key":"jojo无弹幕","name":"JOJO[OK]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jiohub","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":false},"jar":"./jar/1013.jar"},
-		{"key":"jianpian弹幕","name":"荐片弹幕[OK]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/1013.jar"},
-		//{"key":"jianpian无弹幕","name":"荐片[OK]","type":3,"style":{"type":"rect","ratio":1.77},"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":false},"jar":"./jar/1013.jar"},
+	
 		//drpyJs规则区
 		{"key":"drpy_js_360影视","name":"360影视[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"header":{"User-Agent":"Mozilla/5.0-fongmi"},"api":"./lib/drpy2.min.js","ext":"./drpy/js/360影视.js"},
 		{"key":"drpy_js_优酷","name":"优酷[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./lib/drpy2.min.js","ext":"./drpy/js/优酷.js"},
@@ -135,15 +130,9 @@
 		{"key":"csp_Yisou","name":"易搜(搜)丨盘[XYQ]","type":3,"api":"csp_Yisou","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
 		{"key":"csp_Upyunso","name":"UP云搜(搜)丨盘[XYQ]","type":3,"api":"csp_Upyunso","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
 		//推送规则区
-		{"key":"push_agent","name":"🦉夸克推送.PG","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/PG/tv/open_token.json","jar":"./jar/fm.jar;md5;cc8bd6ea561142306352cc40b39b942f"},
+		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","searchable": 0,"changeable": 0,"timeout": 60},
 		//应用商店区
-		{"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"jar":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;f78dde289126840ebdd4abaf0cb7841d",
-			"ext":[
-				{"name":"电视py-v7","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
-				{"name":"Android-4.x","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
-				{"name":"手机py-v7","url":"https://ghps.cc/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"}
-			]
-		}
+		{"key": "应用商店","name": "应用商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/market.json"}
 	],
 	//解析
 	"parses":[
