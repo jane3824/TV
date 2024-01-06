@@ -1,9 +1,9 @@
 {
   "vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png",
-  "drives": [ 
+  "drives": [
     {
-      "name": "小雅-自建分享",
-      "server": "http://110.41.48.42:5678/"
+      "name": "小雅",
+      "server": "http://alist.xiaoya.pro"
     },
     {
       "name": "觸光",
