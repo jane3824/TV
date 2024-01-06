@@ -1,7 +1,16 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;d0ae5fa6fb705a6c020f930a73f44714",
+  "spider": "https://fm.t4tv.hz.cz/jar/custom_spider.jar;md5;10a2368d410cd7177a46a8cc1f684481",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
+    {
+      "key": "商店",
+      "name": "商店",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://fm.t4tv.hz.cz/json/market.json"
+    },
     {
       "key": "泥巴",
       "name": "泥巴",
@@ -27,8 +36,17 @@
       "changeable": 0,
       "ext": {
         "token": "影視天下第一",
-        "filter": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/wogg.json"
+        "filter": "https://fm.t4tv.hz.cz/json/wogg.json"
       }
+    },
+    {
+      "key": "盤99",
+      "name": "盤99",
+      "type": 3,
+      "api": "csp_Pan99",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "影視天下第一"
     },
     {
       "key": "賤賤",
@@ -37,7 +55,7 @@
       "api": "csp_Jianpian",
       "searchable": 1,
       "changeable": 1,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
+      "ext": "https://fm.t4tv.hz.cz/json/jianpian.json"
     },
     {
       "key": "獨播",
@@ -46,15 +64,7 @@
       "api": "csp_XPathMacFilter",
       "searchable": 1,
       "changeable": 1,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/duboku.json"
-    },
-    {
-      "key": "五五",
-      "name": "五五",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/555dy_open.js",
-      "searchable": 1,
-      "changeable": 1
+      "ext": "https://fm.t4tv.hz.cz/json/duboku.json"
     },
     {
       "key": "haiwaikan",
@@ -99,13 +109,29 @@
       ]
     },
     {
+      "key": "996影院",
+      "name": "996影院",
+      "type": 3,
+      "api": "csp_Cs1369",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "短劇",
+      "name": "短劇",
+      "type": 3,
+      "api": "csp_Duanju",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
       "key": "豆瓣",
       "name": "豆瓣",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
       "changeable": 1,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/douban.json"
+      "ext": "https://fm.t4tv.hz.cz/json/douban.json"
     },
     {
       "key": "新6V",
@@ -113,7 +139,19 @@
       "type": 3,
       "api": "csp_Xb6v",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "看球",
+      "name": "看球",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
     },
     {
       "key": "暴風",
@@ -142,8 +180,16 @@
     {
       "key": "量子",
       "name": "量子",
-      "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "非凡",
+      "name": "非凡",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "changeable": 1
     },
@@ -183,7 +229,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json",
+        "json": "https://fm.t4tv.hz.cz/json/bili.json",
         "type": "帕梅拉#太极拳#广场舞#演唱会",
         "cookie": ""
       }
@@ -192,11 +238,11 @@
       "key": "bili_open",
       "name": "哔哩貓",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "categories": "沙雕动画#沙雕穿越#沙雕",
+        "categories": "短剧#沙雕动画#沙雕穿越#沙雕",
         "cookie": ""
       }
     },
@@ -223,16 +269,24 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
+      "ext": "https://fm.t4tv.hz.cz/json/alist.json"
     },
     {
       "key": "WebDAV",
       "name": "WebDAV",
       "type": 3,
       "api": "csp_WebDAV",
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/webdav.json"
+      "ext": "https://fm.t4tv.hz.cz/json/webdav.json"
+    },
+    {
+      "key": "JustLive",
+      "name": "JustLive",
+      "type": 3,
+      "api": "csp_JustLive",
+      "searchable": 1,
+      "changeable": 0
     },
     {
       "key": "七夜",
@@ -296,17 +350,9 @@
       "name": "推送",
       "type": 3,
       "api": "csp_Push",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "應用商店",
-      "name": "應用商店",
-      "type": 3,
-      "api": "csp_Market",
       "searchable": 0,
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json"
+      "timeout": 60
     }
   ],
   "doh": [
@@ -379,10 +425,22 @@
         "haiwaikan"
       ],
       "regex": [
-        "8.1748",
         "10.0099",
         "10.3333",
-        "16.0599"
+        "16.0599",
+        "8.1748",
+        "12.33",
+        "10.85"
+      ]
+    },
+    {
+      "name": "索尼",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "15.1666",
+        "15.2666"
       ]
     },
     {
@@ -411,8 +469,7 @@
         "v.cdnlz"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+        "18.5333"
       ]
     },
     {
@@ -422,8 +479,8 @@
         "hd.ffzy"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+        "25.0666",
+        "25.08"
       ]
     },
     {
@@ -452,6 +509,36 @@
       "regex": [
         "video/tos/cn"
       ]
+    },
+    {
+      "name": "七新嗅探",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "夜市",
+      "hosts": [
+        "yeslivetv.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+      ]
+    },
+    {
+      "name": "毛驢",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
     }
+  ],
+  "ads": [
+    "mozai.4gtv.tv"
   ]
 }
