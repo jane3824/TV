@@ -1,7 +1,7 @@
 {
     "vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png",
     "drives": [ 
-        {"name": "小雅-自建分享","server": "http://110.41.48.42:5678/"},
+        {"name": "小雅-自建分享","server": "http://110.41.48.42:5678/","search": true,"hidden": false},
         {"name": "觸光","server": "https://pan.ichuguang.com"},
         {"name": "一只魚","server": "https://vtok.pp.ua/"},
         {"name": "七米藍","server": "https://al.chirmyram.com"},
