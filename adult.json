@@ -10,15 +10,7 @@
 		{"name":"LB","type":0,"url":"./live/LB.m3u"}
 	],
 	"sites": [
-		{"key": "AList","name": "AList","type": 3,"api": "csp_AList","searchable": 1,"changeable": 0,
-			"ext": {
-				"drives": [
-					{"name": "lao wang","server": "https://alist.jjww.eu.org"},
-					{"name": "🔞罗汉果","server": "https://lala-ofbip.run.goorm.site/"},
-					{"name": "pp","server": "https://yy.owen10089.repl.co/"}
-				]
-			}
-		},
+		{"key": "AList","name": "AList","type": 3,"api": "csp_AList","searchable": 1,"changeable": 0,"ext":"./fongmi/json/alist.a.json"},
 		{"key": "lf_js_p2p","name": "LF_p2p丨磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":30},
 		{"key":"PikPakShareA","name":"PikPakA🛩","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, 
 			"ext":"http://127.0.0.1:9978/file/TVBox/lib/pikpak.json$$$./pg/json/pikpakclass.a.json$$$./pg/json/pikpakclass.a.json.txt.gz"},
