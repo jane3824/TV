@@ -27,7 +27,7 @@
 		{"key": "lf_js_p2p","name": "LF_p2p丨磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":300},
 
 		{"key": "豆瓣","name": "豆瓣丨搜索[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Douban","searchable": 0,"changeable": 1,"ext": "https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/douban.json"},
-		{"key": "玩偶","name": "玩偶丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Wogg","searchable": 1,"changeable": 0,"ext": {"filter":"./fongmi/json/wogg.json"},
+		{"key": "玩偶","name": "玩偶丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Wogg","searchable": 1,"changeable": 0,"ext": "./fongmi/json/wogg.json"},
 		{"key": "盤九","name": "盤99丨影视[fm]","type": 3,"api": "csp_Pan99","searchable": 1,"changeable": 0,"ext": "影視天下第一"},
 		{"key": "賤賤","name": "賤賤丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Jianpian","searchable": 1,"changeable": 1,"ext":"https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/jianpian.json"},
 		{"key": "新6V","name": "新6V丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Xb6v","searchable": 1,"changeable": 0},
