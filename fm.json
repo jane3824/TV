@@ -1,5 +1,5 @@
 {
-	"spider": "https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/jar/custom_spider.jar;md5;bfe5d29153a369d1b0869bfa3711a89a",
+	"spider": "https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/jar/custom_spider.jar;md5;d1c71df1849f7e6737c90ccb92409537",
 
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -27,7 +27,7 @@
 		{"key": "lf_js_p2p","name": "LF_p2p丨磁力","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "./lib/lf_p2p2_min.js","ext": "18+","timeout":300},
 
 		{"key": "豆瓣","name": "豆瓣丨搜索[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Douban","searchable": 0,"changeable": 1,"ext": "https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/douban.json"},
-		{"key": "玩偶","name": "玩偶丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Wogg","searchable": 1,"changeable": 0,"ext": {"token":"http://127.0.0.1:9978/file/tvbox/token.txt","filter":"./fongmi/json/wogg.json"}},
+		{"key": "玩偶","name": "玩偶丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Wogg","searchable": 1,"changeable": 0,"ext": {"filter":"./fongmi/json/wogg.json"},
 		{"key": "盤九","name": "盤99丨影视[fm]","type": 3,"api": "csp_Pan99","searchable": 1,"changeable": 0,"ext": "影視天下第一"},
 		{"key": "賤賤","name": "賤賤丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Jianpian","searchable": 1,"changeable": 1,"ext":"https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/jianpian.json"},
 		{"key": "新6V","name": "新6V丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Xb6v","searchable": 1,"changeable": 0},
@@ -41,7 +41,7 @@
 		{"key": "量子","name": "量子丨影视[fm]","type": 0,"style":{"type":"rect","ratio":1.77},"api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable": 1,"changeable": 1},
 		{"key": "泥巴","name": "🛩泥巴丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_NiNi","searchable": 1,"changeable": 1},
 		{"key": "星星","name": "🛩星星丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_Star","searchable": 1,"changeable": 1},
-		{"key": "獨播","name": "🛩獨播丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_XPathMacFilter","searchable": 1,"changeable": 1,"ext":"https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/duboku.json"},
+		{"key": "獨播","name": "🛩獨播丨影视[fm]","type": 3,"style":{"type":"rect","ratio":1.77},"api": "csp_XPathMacFilter","searchable": 1,"changeable": 1,"ext":"./fongmi/json/json/duboku.json"},
 		{"key": "haiwaikan","name": "🛩海外看丨[fm]","type": 1,"style":{"type":"rect","ratio":1.77},"api": "https://haiwaikan.com/api.php/provide/vod","searchable": 1,"changeable": 1,
 			"categories": ["日本动漫","国产动漫","欧美动漫","国产剧","韩剧","日剧","台剧","泰剧","港剧","欧美剧","动画电影","韩国综艺","国产综艺","日本综艺","欧美综艺","冒险片","剧情片",
 				"动作片","同性片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","战争片","歌舞片","灾难片","爱情片","犯罪片","科幻片","纪录片","经典片"]},
@@ -62,7 +62,7 @@
 		{"key":"drpy_js_8号影院","name":"8号影院[drpyjs]","type":3,"style":{"type":"rect","ratio":1.77},"api":"./drpy/lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":0,"ext":"./drpy/js/8号影院.js"},
 
 		{"key":"mybili","name":"哔哩丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/mybili_open.js"},
-		{"key":"wogg","name":"玩偶丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/wogg.js","ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
+		{"key":"wogg","name":"玩偶丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/wogg.js"},
 		{"key":"ikanbot","name":"爱看丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/ikanbot_open.js"},
 		{"key":"libvio","name":"libvio丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/libvio_open.js"},
 		{"key":"kunyu77","name":"七七丨影视[Catjs]","type":3,"style":{"type":"rect","ratio":1.77},"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api":"./cat/js/kunyu77_open.js"},
@@ -87,16 +87,16 @@
 			"ext":"http://127.0.0.1:9978/file/TVBox/lib/pikpak.json$$$./pg/json/pikpakclass.a.json$$$./pg/json/pikpakclass.a.json.txt.gz",
 			"jar":"./jar/pg.jar;md5;82379b5f45e0b7f9d7dfd44fed733f7f"},
 
-		{"key": "七夜","name": "七夜搜丨盘[search]","type": 3,"api": "csp_Dovx","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "易搜","name": "易搜丨盘[search]","type": 3,"api": "csp_YiSo","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "雲搜","name": "云搜丨盘[search]","type": 3,"api": "csp_UpYun","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "盤搜","name": "盘搜丨盘[search]","type": 3,"api": "csp_PanSou","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "紙條搜","name": "小纸条丨盘[search]","type": 3,"api": "csp_XiaoZhiTiao","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "盤搜索","name": "盘搜索丨盘[search]","type": 3,"api": "csp_PanSearch","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
-		{"key": "找資源","name": "找资源丨盘[search]","type": 3,"api": "csp_Zhaozy","searchable": 1,"changeable": 0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+		{"key": "七夜","name": "七夜搜丨盘[search]","type": 3,"api": "csp_Dovx","searchable": 1,"changeable": 0},
+		{"key": "易搜","name": "易搜丨盘[search]","type": 3,"api": "csp_YiSo","searchable": 1,"changeable": 0},
+		{"key": "雲搜","name": "云搜丨盘[search]","type": 3,"api": "csp_UpYun","searchable": 1,"changeable": 0},
+		{"key": "盤搜","name": "盘搜丨盘[search]","type": 3,"api": "csp_PanSou","searchable": 1,"changeable": 0},
+		{"key": "紙條搜","name": "小纸条丨盘[search]","type": 3,"api": "csp_XiaoZhiTiao","searchable": 1,"changeable": 0},
+		{"key": "盤搜索","name": "盘搜索丨盘[search]","type": 3,"api": "csp_PanSearch","searchable": 1,"changeable": 0},
+		{"key": "找資源","name": "找资源丨盘[search]","type": 3,"api": "csp_Zhaozy","searchable": 1,"changeable": 0},
 
 		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","searchable": 0,"changeable": 0,"timeout": 60},
-		//{"key": "push_agent","name": "🔵lf_push丨推送","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 0,"api": "./lib/lf_pushagent1_5_min.js","ext": "http://127.0.0.1:9978/file/TVBox/token.txt"},
+		//{"key": "push_agent","name": "🔵lf_push丨推送","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 0,"api": "./lib/lf_pushagent1_5_min.js"},
 		{"key": "应用商店","name": "应用商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gh.jjww.eu.org/https://raw.githubusercontent.com/jane3824/CatVodSpider/main/json/market.json"}
 ],
 
